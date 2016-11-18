@@ -180,4 +180,5 @@ extern int kompat_callback(Extension *extension, ExtensionEvent event, intptr_t 
 extern int fake_id0_callback(Extension *extension, ExtensionEvent event, intptr_t d1, intptr_t d2);
 extern int care_callback(Extension *extension, ExtensionEvent event, intptr_t d1, intptr_t d2);
 extern int cow_callback(Extension *extension, ExtensionEvent event, intptr_t d1, intptr_t d2);
+extern int badrand_callback(Extension *extension, ExtensionEvent event, intptr_t d1, intptr_t d2);
 #endif /* EXTENSION_H */
